@@ -1,5 +1,5 @@
 import { Role } from './role';
 
-export class User {
-  Role: Role;
+export interface User {
+  cRole: Role;
 }
